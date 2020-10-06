@@ -64,6 +64,8 @@ public class Chat {
 
 	private void gui() {
 		JFrame frame = new JFrame("Chat client");
+		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
 		JPanel mainPanel = new JPanel();
 
 		// sets incoming textbox properties, wrap the incoming with scroller
